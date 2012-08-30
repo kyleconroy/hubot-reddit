@@ -1,0 +1,30 @@
+{
+  "name": "hubot-reddit",
+  "version": "0.0.1",
+  "author": "Kyle Conroy",
+  "keywords": [
+    "github hubot reddit adapter"
+    ],
+  "description": "A reddit adapter for hubot",
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/mit-license.php",
+  }
+  ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/kyleconroy/hubot-reddit.git"
+    },
+    "dependencies": {
+      "hubot": ">=2.0.5",
+    },
+    "devDependencies": {
+      "coffee-script": "1.1.3"
+    },
+    "main": "./src/reddit",
+    "engine": "node > 0.6.0 < 0.7.0",
+    "engines": {
+      "node": "*"
+    }
+}
